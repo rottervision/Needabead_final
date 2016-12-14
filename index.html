@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Need a Bead • Click the beads that suit your needs</title>
+</head>
+
+<body ng-app="testApp" ng-controller="testCtrl">
+
+  <div class="header-stuf">
+      <a href="#/0home"><img src="images/all_logos.gif" alt="needabead"></a>
+      <h1><a href="#/0home">Need a Bead</a> • Click the beads that suit your needs</h1>
+  </div>
+    <div class="big-container">
+      <div class="tiny-boxes">
+        <div class="floating-box">
+            <a href="#/1jasper" ng-click="searchEtsy('Jasper')">
+                <div class="wrap"><img src="images/01_t_jasper.jpg" alt="Jasper"></div>Jasper
+            </a>
+        </div>
+        <div class="floating-box">
+            <a href="#/2lava" ng-click="searchEtsy('Lava')">
+                <div class="wrap"><img src="images/02_t_Lava.jpg" alt="Lava"></div>Lava
+            </a>
+        </div>
+        <div class="floating-box">
+            <a href="#/3turquoise" ng-click="searchEtsy('Turquoise')">
+                <div class="wrap"><img src="images/03_t_Turquoise.jpg" alt="Turquoise"></div>Turquoise
+            </a>
+        </div>
+        <div class="floating-box">
+            <a href="#/4lemonquartz" ng-click="searchEtsy('Lemon'+'Quartz')">
+                <div class="wrap"><img src="images/04_t_LemonQuartz.jpg" alt="Lemon Quartz"></div>Lemon Quartz
+            </a>
+        </div>
+        <div class="floating-box">
+            <a href="#/5clearquartz" ng-click="searchEtsy('Clear'+'Quartz')">
+                <div class="wrap"><img src="images/05_t_ClearQuartz.jpg" alt="Clear Quartz"></div>Clear Quartz
+            </a>
+        </div>
+        <div class="floating-box">
+            <a href="#/6blueopal" ng-click="searchEtsy('Blue'+'Opal')">
+                <div class="wrap"><img src="images/06_t_BlueOpal.jpg" alt="Blue Opal"></div>Blue Opal
+            </a>
+          </div>
+        </div>
+        <ng-view></ng-view>
+
+        <hr>
+
+    </div>
+
+    <div class="foot">
+      <br>
+        <br>
+          <br>
+        <h3>©2016 Need A Bead • 1-800-NAB-BEAD • Email: <a href="mailto:nab@needabead.com">nab@needabead.com</a></h3>
+        <br>
+          <br>
+            <br>
+  </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

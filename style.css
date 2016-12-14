@@ -1,0 +1,85 @@
+.header-stuf {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    color: green;
+    font-size: 160%;
+}
+
+h2 {
+    color: green;
+    font-size: 140%;
+}
+
+h3 {
+    color: green;
+    font-size: 120%;
+}
+
+h4 {
+    color: green;
+    font-size: 110%;
+}
+
+p {
+    color: black;
+    font-size: 100%;
+margin-left: auto;
+}
+
+.floating-box {
+    text-align: center;
+    width: 170px;
+    display: inline-block;
+}
+
+.floating-box .wrap {
+    height: 90px;
+    width: 160px;
+    overflow: hidden;
+}
+
+.floating-box img {
+	height: auto !important;
+    -webkit-transition: width .25s, height .25s, background-color .25s, -webkit-transform .25s;
+    transition: width .25s, height .25s, background-color .25s, transform .25s;
+
+	transition-duration: .25s;
+	transition-timing-function: ease;
+}
+
+.floating-box:hover img {
+	transform: scale(1.1);
+}
+
+.big-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.tiny-boxes {
+    width: 99%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.page-image {
+    padding: 10px;
+}
+
+.foot {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
