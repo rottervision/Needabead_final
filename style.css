@@ -49,19 +49,19 @@ margin-left: auto;
 
 .floating-box img {
 	height: auto !important;
-    -webkit-transition: width .25s, height .25s, background-color .25s, -webkit-transform .25s;
-    transition: width .25s, height .25s, background-color .25s, transform .25s;
+    -webkit-transition: width .2s, height .2s, background-color .2s, -webkit-transform .2s;
+    transition: width .2s, height .2s, background-color .2s, transform .2s;
 
-	transition-duration: .25s;
+	transition-duration: .2s;
 	transition-timing-function: ease;
 }
 
 .floating-box:hover img {
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 
 .big-container {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     text-align: left;
     padding: 10px;
@@ -71,15 +71,15 @@ margin-left: auto;
     width: 99%;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
 }
 
 .page-image {
-    padding: 10px;
+    padding: 8px;
 }
 
 .foot {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     text-align: center;
 }
